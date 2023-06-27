@@ -1,0 +1,81 @@
+.header {
+  padding: 32px 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bonusesContent {
+  display: flex;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.descBlock {
+  display: flex;
+}
+
+.overlay {
+  position: absolute;
+  top: 132px;
+  height: 148px;
+  width: 100%;
+  background: var(--unnamed, linear-gradient(180deg, #d2333e 0%, #f54b55 100%));
+}
+
+.button {
+  padding: 4px;
+}
+
+.roundIcon {
+  border-radius: 50%;
+  border: 1px solid var(--unnamed, #d4343f);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svgFire {
+  margin: 0 8px;
+}
+
+.text {
+  color: var(--unnamed, #979797);
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.textFire {
+  color: var(--unnamed, #979797);
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  img {
+    height: 17px;
+  }
+}
